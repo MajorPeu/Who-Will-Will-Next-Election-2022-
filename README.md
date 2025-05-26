@@ -1,22 +1,22 @@
-# 🗳️ Who Will Win the Next Election? – STA304 Assignment 2 (Fall 2022)
+# Who Will Win the Next Election? – STA304 Assignment 2 (Fall 2022)
 
 **Author:** Peush Gomes  
 **Course:** STA304 – Fall 2022  
 **Date Submitted:** November 24, 2022  
 
-## 📌 Project Overview
+## Project Overview
 
 This project investigates whether any Canadian province is likely to have at least half of its population vote for the Liberal Party in the next federal election. Using 2019 Canadian Election Study data as a sample and the 2013 General Social Survey as a pseudo-census, a logistic regression model was built and then post-stratified to generate province-level predictions.
 
 ---
 
-## 🔍 Research Question
+## Research Question
 
 **Do any of the Canadian provinces have at least 50% of the vote share projected to go to the Liberal Party?**
 
 ---
 
-## 📊 Data Sources
+## Data Sources
 
 - **Survey Data:** 2019 Canadian Election Study (CES)  
   - Conducted via phone interviews (both mobile and landline) between September–October 2019.
@@ -28,7 +28,7 @@ This project investigates whether any Canadian province is likely to have at lea
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 1. **Modeling:**
    - A logistic regression model was built using the CES 2019 data to predict `vote_liberal` (1 = Liberal, 0 = otherwise).
@@ -46,7 +46,7 @@ This project investigates whether any Canadian province is likely to have at lea
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 
 | Province               | Sample Size | Liberal Vote Proportion |
 |------------------------|-------------|--------------------------|
@@ -66,7 +66,7 @@ None of the 10 provinces are predicted to have at least 50% support for the Libe
 
 ---
 
-## 📚 Conclusions
+## Conclusions
 
 - The hypothesis that at least one province would have a majority Liberal vote was **rejected**.
 - While provinces like Ontario and the Maritimes were expected to show stronger support, results indicated otherwise, possibly due to model limitations or sample bias.
@@ -74,14 +74,14 @@ None of the 10 provinces are predicted to have at least 50% support for the Libe
 
 ---
 
-## 🧪 Tools Used
+## Tools Used
 
 - R version 4.0.2  
 - Libraries: `tidyverse`, `ggplot2`, `glm()` for logistic regression
 
 ---
 
-## 📖 References
+## References
 
 1. Grolemund, G. (2014). *Introduction to R Markdown.* [rmarkdown.rstudio.com](https://rmarkdown.rstudio.com/articles_intro.html)  
 2. Dekking, F. M., et al. (2005). *A Modern Introduction to Probability and Statistics.* Springer.  
